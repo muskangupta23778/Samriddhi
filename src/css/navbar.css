@@ -1,0 +1,55 @@
+/* Navbar container */
+.navbar {
+  background-color: #ff5733; /* Bright orange */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar brand name */
+.navbar-brand {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Navbar buttons */
+.navbar-btn {
+  background-color: #fff;
+  color: #ff5733;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Navbar button hover effect */
+.navbar-btn:hover {
+  background-color: #ff5733;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile menu icon */
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Collapse menu styling */
+.navbar-collapse {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .navbar-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+}

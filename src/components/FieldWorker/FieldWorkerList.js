@@ -6,6 +6,7 @@ const FieldWorkerList = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
     const token = localStorage.getItem("token");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         const fetchFieldWorkers = async () => {
             try {

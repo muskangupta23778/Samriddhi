@@ -9,6 +9,7 @@ const AdminList = () => {
     const token = localStorage.getItem("token");
     const navigate = useNavigate();
     // console.log(token)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         const fetchAdmins = async () => {
             try {

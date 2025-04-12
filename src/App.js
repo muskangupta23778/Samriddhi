@@ -58,6 +58,7 @@ const MainLayout = () => {
         <Route path='/' element={<UserDetailsCard />} />
         <Route path='/admin/dashboard' element={<PrivateRoute element={<AdminDashboard />} role='admin' />} />
         <Route path='/fw/dashboard' element={<PrivateRoute element={<UserRegistration />} role='fw' />} />
+        <Route path='/hospitals' element={<PrivateRoute element={<UserRegistration />} role='fw' />} />
       </Routes>
     </div>
   );

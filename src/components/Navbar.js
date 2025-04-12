@@ -46,7 +46,7 @@ const Navbar = () => {
                         </button>
                         <button
                             className="btn navbar-btn"
-                            onClick={() => alert("Associated Hospitals clicked")}
+                            onClick={() => navigate("/hospitals")}
                         >
                             Associated Hospitals
                         </button>

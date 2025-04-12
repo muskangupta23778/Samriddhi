@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Navbar from "./../Navbar"; // Import the Navbar component
 
 const UserDetailsCard = (props) => {
   const [userId, setUserId] = useState("");
@@ -20,8 +19,8 @@ const UserDetailsCard = (props) => {
 
     try {
       const response = await axios.get(`http://localhost:4000/users/${userId}`);
-      const user = response.data.find(person => person.id == userId); // User has null relation
-      const familyMembers = response.data.filter(person => person.id != userId);
+      const user = response.data.find(person => person.id === userId); // User has null relation
+      const familyMembers = response.data.filter(person => person.id !== userId);
       setUserDetails(user); // Set user details
       setFamilyMembers(familyMembers); // Set family details
     } catch (err) {

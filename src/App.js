@@ -1,9 +1,8 @@
-import logo from './logo.svg';
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
   Navigate,
   useLocation
 } from "react-router-dom";
@@ -11,12 +10,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { AuthContext, AuthProvider } from './AuthContext';
 import AdminLogin from './components/Admin/AdminLogin';
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 import AdminDashboard from './components/Admin/AdminDashboard';
 import UserRegistration from './components/User/UserRegistration';
 import FieldWorkerLogin from './components/FieldWorker/FieldWorkerLogin';
 import UserDetailsCard from './components/User/UserDetailsCard';
-import QRScanner from './components/QRScanner ';
 
 const PrivateRoute = ({ element, role }) => {
   let navigateTo = "/admin-login";
@@ -58,7 +56,6 @@ const MainLayout = () => {
         <Route path='/-logadminin' element={<AdminLogin login={true} />} />
         <Route path='/fw-login' element={<FieldWorkerLogin />} />
         <Route path='/' element={<UserDetailsCard />} />
-        <Route path='/qr' element={<PrivateRoute element={<QRScanner />} />} />
         <Route path='/admin/dashboard' element={<PrivateRoute element={<AdminDashboard />} role='admin' />} />
         <Route path='/fw/dashboard' element={<PrivateRoute element={<UserRegistration />} role='fw' />} />
       </Routes>

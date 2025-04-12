@@ -6,7 +6,6 @@ const FieldWorkerList = () => {
     const [fieldWorkers, setFieldWorkers] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
-    const navigate = useNavigate();
     const token = localStorage.getItem("token");
     useEffect(() => {
         const fetchFieldWorkers = async () => {

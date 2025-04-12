@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
-                <a className="navbar-brand text-white" href="#" style={{ fontSize: "1.8rem", fontWeight: "bold", letterSpacing: "1px" }}>
+                <a className="navbar-brand text-white" style={{ fontSize: "1.8rem", fontWeight: "bold", letterSpacing: "1px" }}>
                     SamriddhiHealth
                 </a>
                 {/* Toggler button for mobile */}

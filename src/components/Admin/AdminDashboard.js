@@ -18,7 +18,7 @@ const AdminDashboard = () => {
     <div className="container mt-5">
       <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#ff5733", boxShadow: "0 4px 8px rgba(0,0,0,0.2)", borderRadius: "10px", padding: "10px" }}>
         <div className="container-fluid">
-          <a className="navbar-brand fw-bold text-white" href="#" style={{ fontSize: "1.5rem" }}>🚀 Admin Dashboard</a>
+          <a className="navbar-brand fw-bold text-white" style={{ fontSize: "1.5rem" }}>🚀 Admin Dashboard</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

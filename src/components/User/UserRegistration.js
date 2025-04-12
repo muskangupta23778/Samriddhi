@@ -67,7 +67,7 @@ const UserRegistration = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#ff5733", boxShadow: "0 4px 8px rgba(0,0,0,0.2)", borderRadius: "10px", padding: "10px" }}>
                 <div className="container-fluid">
-                    <a className="navbar-brand fw-bold text-white" style={{ fontSize: "1.5rem" }}>🚀 Dashboard</a>
+                    <a className="navbar-brand fw-bold text-white" href="/" style={{ fontSize: "1.5rem" }}>🚀 Dashboard</a>
                     <div className="ms-auto d-flex">
                         <button className="btn btn-outline-light me-2" style={{ borderRadius: "15px" }} onClick={() => setShowProfile(true)}>
                             <FiUser /> Profile

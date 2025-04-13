@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
-import Hospitals from './components/Hospitals';
 import { AuthContext, AuthProvider } from './AuthContext';
 import AdminLogin from './components/Admin/AdminLogin';
 import { useContext } from 'react';

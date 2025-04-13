@@ -45,7 +45,7 @@ const UserRegistration = () => {
         setError("");
 
         try {
-            await axios.post("http://localhost:4000/users", users, {
+            await axios.post("https://samridhihealth.com/users", users, {
                 headers: {
                     Authorization: `Bearer ${token}`, // Include Bearer token in the header
                 },

@@ -16,7 +16,7 @@ const AdminLogin = () => {
 
     try {
       console.log(id, password);
-      const response = await axios.post("http://localhost:4000/admin/login", { id, password });
+      const response = await axios.post("https://samridhihealth.com/admin/login", { id, password });
       login(response.data.token);
       navigate("/admin/dashboard"); 
     } catch (err) {

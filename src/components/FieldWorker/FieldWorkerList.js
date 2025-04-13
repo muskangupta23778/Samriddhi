@@ -10,7 +10,7 @@ const FieldWorkerList = () => {
     useEffect(() => {
         const fetchFieldWorkers = async () => {
             try {
-                const response = await axios.get("http://localhost:4000/fw" , {
+                const response = await axios.get("https://samridhihealth.com/fw" , {
                     headers: {
                         Authorization: `Bearer ${token}`, // Include Bearer token in the header
                     },

@@ -16,7 +16,7 @@ const FieldWorkerLogin = () => {
 
     try {
       console.log(id, password);
-      const response = await axios.post("http://localhost:4000/fw/login", { id, password });
+      const response = await axios.post("https://samridhihealth.com/fw/login", { id, password });
       login(response.data.token);
       navigate("/fw/dashboard");
     } catch (err) {

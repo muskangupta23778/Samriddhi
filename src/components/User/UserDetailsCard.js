@@ -18,7 +18,7 @@ const UserDetailsCard = (props) => {
     setError("");
 
     try {
-      const response = await axios.get(`http://localhost:4000/users/${userId}`);
+      const response = await axios.get(`https://samridhihealth.com/users/${userId}`);
       const user = response.data.find(person => person.id === userId); // User has null relation
       const familyMembers = response.data.filter(person => person.id !== userId);
       setUserDetails(user); // Set user details

@@ -13,7 +13,7 @@ const AdminList = () => {
     useEffect(() => {
         const fetchAdmins = async () => {
             try {
-                const response = await axios.get("http://localhost:4000/admin", {
+                const response = await axios.get("https://samridhihealth.com/admin", {
                     headers: {
                         Authorization: `Bearer ${token}`, // Include Bearer token in the header
                     },

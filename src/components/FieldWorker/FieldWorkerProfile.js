@@ -5,7 +5,7 @@ const FieldWorkerProfile = () => {
   const [monthlyData, setMonthlyData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/users/monthly-data")
+    axios.get("https://samridhihealth.com/users/monthly-data")
       .then(response => setMonthlyData(response.data))
       .catch(error => console.error("Error fetching data:", error));
   }, []);

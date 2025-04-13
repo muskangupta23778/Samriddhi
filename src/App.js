@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
+import Navbar from './components/Hospitals';
 import { AuthContext, AuthProvider } from './AuthContext';
 import AdminLogin from './components/Admin/AdminLogin';
 import { useContext } from 'react';
@@ -15,6 +16,7 @@ import AdminDashboard from './components/Admin/AdminDashboard';
 import UserRegistration from './components/User/UserRegistration';
 import FieldWorkerLogin from './components/FieldWorker/FieldWorkerLogin';
 import UserDetailsCard from './components/User/UserDetailsCard';
+import Hospitals from "./components/Hospitals";
 
 const PrivateRoute = ({ element, role }) => {
   let navigateTo = "/admin-login";
@@ -58,7 +60,7 @@ const MainLayout = () => {
         <Route path='/' element={<UserDetailsCard />} />
         <Route path='/admin/dashboard' element={<PrivateRoute element={<AdminDashboard />} role='admin' />} />
         <Route path='/fw/dashboard' element={<PrivateRoute element={<UserRegistration />} role='fw' />} />
-        <Route path='/hospitals' element={<PrivateRoute element={<UserRegistration />} role='fw' />} />
+        <Route path='/hospitals' element={<Hospitals />} />
       </Routes>
     </div>
   );

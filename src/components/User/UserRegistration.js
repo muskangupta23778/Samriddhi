@@ -1,9 +1,9 @@
-import React, { useState, useContext } from "react";
-import axios from "axios";
-import { FaTrash } from "react-icons/fa";
-import { FiLogOut, FiUser } from "react-icons/fi";
-import FieldWorkerProfile from "./../FieldWorker/FieldWorkerProfile";
-import { AuthContext } from "../../AuthContext";
+// import React, { useState, useContext } from "react";
+// import axios from "axios";
+// import { FaTrash } from "react-icons/fa";
+// import { FiLogOut, FiUser } from "react-icons/fi";
+// import FieldWorkerProfile from "./../FieldWorker/FieldWorkerProfile";
+// import { AuthContext } from "../../AuthContext";
 
 const UserRegistration = () => {
     // const { logout } = useContext(AuthContext);

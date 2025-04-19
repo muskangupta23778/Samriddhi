@@ -1,0 +1,129 @@
+[
+    {
+      "name": "Niharika Hospital",
+      "address": "Yogendra Vihar, Khadepur Karrahi Road",
+      "city": "Kanpur",
+      "contact": "9876543210",
+      "specialties": ["General", "Emergency"]
+    },
+    {
+      "name": "Lifeline Hospital",
+      "address": "H1-46 Krishnapuram G.T Road Shyam Nagar",
+      "city": "Kanpur",
+      "contact": "9876543211",
+      "specialties": ["Cardiology", "Orthopedics"]
+    },
+    {
+      "name": "Hashmi Hospital",
+      "address": "83/145, Juhi Param Purwa",
+      "city": "Kanpur",
+      "contact": "9876543212",
+      "specialties": ["General", "Pediatrics"]
+    },
+    {
+      "name": "Midwin Hospital",
+      "address": "Char Rod Chauraha, Bakarganj",
+      "city": "Kanpur",
+      "contact": "9876543213",
+      "specialties": ["ENT", "Surgery"]
+    },
+    {
+      "name": "Ganga Devi Hospital & Trauma Centre",
+      "address": "C1-19, Barra World Bank",
+      "city": "Kanpur",
+      "contact": "9876543214",
+      "specialties": ["Trauma", "Emergency"]
+    },
+    {
+      "name": "New Light Hospital",
+      "address": "Barra World Bank Bypass",
+      "city": "Kanpur",
+      "contact": "9876543215",
+      "specialties": ["General", "Dermatology"]
+    },
+    {
+      "name": "Nasir Hospital",
+      "address": "Jajmau",
+      "city": "Kanpur",
+      "contact": "9876543216",
+      "specialties": ["General"]
+    },
+    {
+      "name": "Anurag Health Care Pvt. Ltd.",
+      "address": "117/New Sharda Nagar",
+      "city": "Kanpur",
+      "contact": "9876543217",
+      "specialties": ["Internal Medicine", "Gastroenterology"]
+    },
+    {
+      "name": "Swaraj Hospital",
+      "address": "Samadhi Pulia Galla Mandi",
+      "city": "Kanpur",
+      "contact": "9876543218",
+      "specialties": ["Neurology", "Emergency"]
+    },
+    {
+      "name": "Sultan Clinic",
+      "address": "Bamboo Mandi, Dalel Purwa",
+      "city": "Kanpur",
+      "contact": "9876543219",
+      "specialties": ["Family Medicine"]
+    },
+    {
+      "name": "Radha Pharmaceuticals",
+      "address": "Kanpur",
+      "city": "Kanpur",
+      "contact": "9876543220",
+      "specialties": ["Pharmacy"]
+    },
+    {
+      "name": "Relief Hospital",
+      "address": "Naubasta Galla Mandi",
+      "city": "Kanpur",
+      "contact": "9876543221",
+      "specialties": ["Surgery", "Emergency"]
+    },
+    {
+      "name": "Priya Hospital",
+      "address": "Barra Bypass",
+      "city": "Kanpur",
+      "contact": "9876543222",
+      "specialties": ["General", "Pediatrics"]
+    },
+    {
+      "name": "Manav Hospital",
+      "address": "Near Hali Muslim School, Chamanganj",
+      "city": "Kanpur",
+      "contact": "9876543223",
+      "specialties": ["Orthopedics", "Gynecology"]
+    },
+    {
+      "name": "New Lakhanpur Hospital",
+      "address": "Vikas Nagar",
+      "city": "Kanpur",
+      "contact": "9876543224",
+      "specialties": ["General", "Radiology"]
+    },
+    {
+      "name": "New National Hospital",
+      "address": "Akbarpur",
+      "city": "Akbarpur",
+      "contact": "9876543225",
+      "specialties": ["General"]
+    },
+    {
+      "name": "Pushpi Hospital",
+      "address": "Akbarpur",
+      "city": "Akbarpur",
+      "contact": "9876543226",
+      "specialties": ["Emergency", "Internal Medicine"]
+    },
+    {
+      "name": "Lokpriya Hospital",
+      "address": "Akbarpur",
+      "city": "Akbarpur",
+      "contact": "9876543227",
+      "specialties": ["Cardiology", "Trauma"]
+    }
+  ]
+  

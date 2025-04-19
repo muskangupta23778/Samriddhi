@@ -15,7 +15,7 @@ import AdminDashboard from './components/Admin/AdminDashboard';
 import UserRegistration from './components/User/UserRegistration';
 import FieldWorkerLogin from './components/FieldWorker/FieldWorkerLogin';
 import UserDetailsCard from './components/User/UserDetailsCard';
-import Hospitals from "./components/Hospitals";
+import HospitalList from "./components/HospitalList";
 
 const PrivateRoute = ({ element, role }) => {
   let navigateTo = "/admin-login";
@@ -42,7 +42,8 @@ const MainLayout = () => {
   // Define the routes where the Navbar should appear
   const showNavbarRoutes = [
     '/',
-    '/qr'
+    '/qr',
+    '/hospitals'
   ];
 
   const showNavbar = showNavbarRoutes.includes(location.pathname);
@@ -59,7 +60,7 @@ const MainLayout = () => {
         <Route path='/' element={<UserDetailsCard />} />
         <Route path='/admin/dashboard' element={<PrivateRoute element={<AdminDashboard />} role='admin' />} />
         <Route path='/fw/dashboard' element={<PrivateRoute element={<UserRegistration />} role='fw' />} />
-        <Route path='/hospitals' element={<Hospitals />} />
+        <Route path='/hospitals' element={<HospitalList />} />
       </Routes>
     </div>
   );

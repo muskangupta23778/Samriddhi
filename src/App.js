@@ -34,7 +34,7 @@ function App() {
     </AuthProvider>
   );
 }
-
+//This is a comment by Harshit
 const MainLayout = () => {
   const location = useLocation();
 
